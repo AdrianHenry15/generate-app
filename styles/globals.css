@@ -1,8 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
-.customNavbarFont {
-    font-family: 'Roboto', sans-serif;
+
+.customNavbarFont  {
+    font-family: 'Jim Nightshade', cursive;
+}
+
+@layer components {
+    .navBtn {
+        @apply cursor-pointer text-white pr-6
+    }
+
+    .navIcon {
+        @apply h-5 w-5 text-white
+    }
+
+    .sidebarBtn {
+        @apply flex items-center space-x-6 hover:text-gray-700 active:text-gray-700 focus:text-gray-700
+    }
+
+    .sidebarIcon {
+        @apply h-5 w-5
+    }
+
+    .sidebarBorder {
+        @apply border-t-[0.1px] border-gray-700
+    }
 }
