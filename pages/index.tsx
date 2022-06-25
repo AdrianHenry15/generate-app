@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import Head from 'next/head'
 import Dashboard from './Dashboard';
-import MusicPlayer from '../components/MusicPlayer'
+import MusicPlayer from '../components/Music/MusicPlayer'
 
 
 
@@ -18,7 +18,9 @@ const Home: NextPage = () => {
       <Navbar />
       <main className='flex'>
         <Sidebar />
-        <Dashboard />
+        <div>
+          <Dashboard />
+        </div>
         
       </main>
 

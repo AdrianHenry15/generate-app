@@ -16,7 +16,7 @@ const Sidebar = () => {
 
   return (
     <div className="hidden md:flex">
-    <div className="text-white p-5 px-14 text-md lg:text-sm border-r border-gray-900 overflow-y-scroll scrollbar-hide h-screen lg:max-w-[15rem] md:inline-flex pb-36 bg-zinc-900">
+    <div className="text-white whitespace-nowrap p-5 px-14 text-md lg:text-sm border-r border-gray-900 overflow-y-scroll scrollbar-hide h-screen lg:max-w-[15rem] md:inline-flex pb-36 bg-zinc-900">
       <div className="space-y-4">
 
         <button className="sidebarBtn">
