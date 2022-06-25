@@ -14,7 +14,11 @@
     }
 
     .navIcon {
-        @apply h-5 w-5 text-white
+        @apply hidden md:inline-grid md:h-5 md:w-5
+    }
+
+    .mobileFooterIcon {
+        @apply  inline-grid h-5 w-5 text-white
     }
 
     .sidebarBtn {
