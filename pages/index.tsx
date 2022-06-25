@@ -24,7 +24,7 @@ const Home: NextPage = () => {
         
       </main>
 
-      <div className='sticky bottom-0'>
+      <div className='md:sticky md:bottom-0'>
         <MusicPlayer />
       </div>
       

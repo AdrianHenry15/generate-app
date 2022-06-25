@@ -21,7 +21,8 @@
     "**/*.tsx",
     "pages/Dashboard.jsx",
     "components/Movie.jsx",
-    "components/MovieRow.jsx"
+    "components/MovieRow.jsx",
+    "components/Music/MusicPlayer.jsx"
   ],
   "exclude": ["node_modules"]
 }
